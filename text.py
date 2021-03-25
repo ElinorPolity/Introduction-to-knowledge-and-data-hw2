@@ -46,6 +46,7 @@ def countword()->int:
         if counter==0:
             x=i
             x=x.strip()
+            x=x.lower()
         # for the rest of the lines
         else:
             #operate the revers function
